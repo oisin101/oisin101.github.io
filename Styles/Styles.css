@@ -1,0 +1,127 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: black;
+    font-family: sans-serif;
+    color:white;
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    display: inline-block;
+}
+nav
+{
+    background-image: url(../Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center -200px;
+    background-size: cover;
+    height: 750px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+#sun_logo
+{
+    float: left;
+    width: 200px;
+    height: 139px;
+}
+nav h1
+{
+    float: left;
+    font-size: 30px;
+    padding-right: 40px;
+}
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+nav ul li
+{
+    padding: 15px;
+    margin: 40px 3px;
+    background-color: #bfb9a0;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+}
+a:link,
+a:visited,
+nav ul a:hover
+{
+    color: white;
+}
+nav ul li:hover
+{
+    background-color: #cfeb55;
+}
+.selected
+{
+    background-color: #f3b104;
+}
+footer
+{
+    clear: both;
+    background-color: #8c8674;
+}
+footer ul{
+    width: 290px;
+    margin: 10px auto;
+}
+footer ul li{
+margin: 0 10px;
+}
+footer p
+{
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
+footer a
+{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+/** home page **/
+.treeImage
+{
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid rgb(14, 125, 216);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+/***news page***/
+.seasideLocations img
+{
+    width: 32%;
+    height: 300px;
+    border: 2px solid white;
+}
+.col {
+    column-count: 4;
+    column-rule: 1px solid lightblue;
+    column-gap: normal;
+}
+
+/** about page **/
+
+.address p
+{
+    padding-top: 40px;
+    text-align: center;
+}
+
